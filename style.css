@@ -343,11 +343,85 @@ LOGO
 }
 
 .logo img{
-    width:80px;
+    width:100px;
     height:auto;
 }
-.logo img:hover{
-    transform:scale(1.05);
+/*==========================
+LOGO
+==========================*/
+
+.logo-wrap{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    text-decoration:none;
+
+}
+
+.logo-wrap img{
+
+    width:75px;
+
+    height:auto;
+
+    display:block;
+
+}
+
+.logo-text{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.logo-text h1{
+
+    margin:0;
+
+    font-size:34px;
+
+    font-weight:900;
+
+    font-family:'Poppins',sans-serif;
+
+    color:#0A3D91;
+
+    line-height:1;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.logo-text h1 span{
+
+    color:#FFC107;
+
+}
+
+.logo-text p{
+
+    margin-top:5px;
+
+    margin-bottom:0;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:#666;
+
+    letter-spacing:1px;
+
 }
 
 /*=========================================
