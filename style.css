@@ -110,6 +110,8 @@ TOP HEADER
 
     flex:1;
     overflow:hidden;
+    text-align: center;
+    display: flex;
 
 }
 
