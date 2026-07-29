@@ -635,17 +635,18 @@ NAVIGATION
 }
 
 .navbar .container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    max-width:1400px;
+    width:100%;
+    margin:auto;
+    padding:0 15px;
 }
 
 .navbar ul{
     display:flex;
-    justify-content:center;
     align-items:center;
-    flex-wrap:wrap;
-    gap:0;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+    width:100%;
     list-style:none;
     margin:0;
     padding:0;
@@ -656,11 +657,10 @@ NAVIGATION
 }
 .navbar ul li a{
     display:block;
-    padding:12px 10px;
+    padding:16px 10px;
     color:#fff;
-    font-size:17px;
+    font-size:14px;
     font-weight:600;
-    transition:.35s;
     white-space:nowrap;
 }
 
